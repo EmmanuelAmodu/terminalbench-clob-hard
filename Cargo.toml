@@ -1,0 +1,13 @@
+[package]
+name = "clob-sim"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "clob"
+path = "src/lib.rs"
+
+[[bin]]
+name = "clob-sim"
+path = "src/main.rs"
